@@ -66,3 +66,4 @@ If you're using Django 1.2 just copy the media files to your `MEDIA_ROOT`.
 
  * Simon - http://djangosnippets.org/snippets/1053/
  * centralniak - https://github.com/centralniak/django-inline-ordering/
+ * 1010/django-inline-orderable

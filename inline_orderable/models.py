@@ -9,5 +9,5 @@ class Orderable(models.Model):
     order = models.IntegerField(default=0)
     
     class Meta:
-        abstract = True         
+        abstract = True
         ordering = ('order',)
