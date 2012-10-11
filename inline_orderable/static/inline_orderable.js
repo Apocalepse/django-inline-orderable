@@ -4,7 +4,7 @@ function any(list, iterable) {
             return true;
         }
     }
-    
+
     return false
 }
 
@@ -14,13 +14,13 @@ function updateOrdering(elements) {
         // TODO check selects as well
         var $this = $(this),
             inputs = $this.find('input[type=text], textarea').not('input[id$=order]');
-        
+
         if (any(inputs, function(input) { return $(input).val() ? true : false })) {
             $this.find('input[id$=order]').val(i+1);
         } else {
-            $this.find('input[id$=order]').val(0);
+            $this.find('input[id$=order]').val(i);
         }
-        
+
         // updating row classes
         $(this).removeClass('row1').removeClass('row2');
         $(this).addClass('row'+((i%2)+1));
