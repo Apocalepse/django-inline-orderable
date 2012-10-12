@@ -5,6 +5,8 @@ An easy way of making inlines orderable using drag-and-drop.
 
 ## Installation
 
+pip install -e git+git://github.com/Apocalepse/django-inline-orderable.git#egg=django-inline-orderable
+
 Add `inline_orderable` to INSTALLED_APPS in `settings.py`.
 
 ## Usage
