@@ -17,7 +17,7 @@
                 inlineGroup.find(opts.inlineItemsSel).css('cursor', 'move');
         
                 // finding header of order
-                var orderHeaderIndex = inlineGroup.find('td.order:first').index()-1,
+                var orderHeaderIndex = inlineGroup.find('td.field-order:first').index()-1,
                     orderTheadTH = inlineGroup.find('thead th:eq('+orderHeaderIndex+')'),
                     orderTheadTHColspan = parseInt(orderTheadTH.attr('colspan') || 1);
                 
